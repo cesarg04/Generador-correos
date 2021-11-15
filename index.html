@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-wid
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Correo Electronico</h1>
+    <div id="container-data">
+        <input type="text" id="entrada-correo">
+        <div id="container-select">
+            <select name="correo" id="select-mail" onchange="ShowSelected()">
+                <option value="enterProvider">Select Email</option>
+                <option value="gmail">@gmail.com</option>
+                <option value="hotmail">@hotmail.com</option>
+                <option value="icloud">@icloud.com</option>
+            </select>
+            <select name="numbertheemails" id="select-numbers">
+                <option value="num">num</option>
+                <option value="10">10</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Enter" id="enter-button">
+        <div id="show-info">
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
