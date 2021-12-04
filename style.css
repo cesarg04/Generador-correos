@@ -87,4 +87,24 @@ input, select{
 
 }
 
+#button-container{
+    margin: 0 auto;
+}
+
+#clear-button{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+#clear-button:hover{
+    background-color: rgb(51, 156, 30);
+
+}
+
 
