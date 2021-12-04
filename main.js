@@ -15,6 +15,7 @@ const ShowSelected = () => {
 const showNumber = () => {
     let num = document.getElementById("select-numbers");
     let numSelcted = num.options[num.selectedIndex].text;
+    
     let convertedNumber = parseInt(numSelcted);
     return convertedNumber;
 }
